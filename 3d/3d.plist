@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>Type</key> 
+				<string>3D</string>		
+				<key>Path</key>
+				<string>thumb_bloom(4).FBX</string>
+				<key>GlowMeshConfig</key>
+				<array>
+					<dict>
+						<key>GlowMeshIndex</key>
+						<string>0</string>
+						<key>IteratorCount</key>
+						<integer>2</integer>
+						<key>GlowMixColor</key>
+						<string>1.0,1.0,1.0</string>
+						<key>GlowStrength</key>
+						<float>1.0</float>
+						<key>GamaExposure</key>
+						<float>1.0</float>
+						<key>BlurScale</key>
+						<integer>8</integer>
+						<key>Translate</key>
+						<string>0,0,-800</string>
+						<key>Rorata</key>
+						<string>60,60,10</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
