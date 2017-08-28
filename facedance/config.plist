@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+			<array>
+				<dict>
+					<key>Type</key>
+					<string>FaceDance</string>
+					<key>SoundEffect</key>
+					<string>CatchUp.mp3</string>								
+
+					<!-- 游戏设定-->
+					<key>GameConfig</key>
+					<array>
+					<dict>
+						<!--生成一个新的sprite的时间 简单理解 速率-->
+						<key>Rate</key>
+						<float>2</float>
+						<!--生成速率的随机范围 rate~rate+rateRange -->
+						<key>RateRange</key>
+						<float>4.0</float>
+						<!-- sprite的最大数量-->
+						<key>MaxSpriteCount</key>
+						<integer>10</integer>
+						<!-- sprite的移动速度 向上为负-->
+						<key>Velocity</key>
+						<float>-15.0</float>
+					</dict>
+					</array>
+					<!-- 进入crazy时的参数设定-->
+					<key>CrazyConfig</key>
+					<array>
+					<dict>
+						<!--生成一个新的sprite的时间 简单理解 速率-->
+						<key>Rate</key>
+						<float>1.0</float>
+						<!--生成速率的随机范围 rate~rate+rateRange -->
+						<key>RateRange</key>
+						<float>0.5</float>
+						<!-- sprite的最大数量-->
+						<key>MaxSpriteCount</key>
+						<integer>25</integer>
+						<!-- sprite的移动速度 向上为负-->
+						<key>Velocity</key>
+						<float>-25.0</float>
+					</dict>
+					</array>
+				
+					<!-- 人脸对应图-->
+					<key>FaceActionConfig</key>
+					<array>
+						<dict>
+							<key>FaceAction</key>
+							<integer>2</integer>
+							<key>Path</key>
+							<string>leftEye.png</string>
+						</dict>
+						<dict>
+							<key>FaceAction</key>
+							<integer>3</integer>
+							<key>Path</key>
+							<string>rightEye.png</string>
+						</dict>
+						<dict>
+							<key>FaceAction</key>
+							<integer>10</integer>
+							<key>Path</key>
+							<string>openMouth.png</string>
+						</dict>
+						<dict>
+							<key>FaceAction</key>
+							<integer>16</integer>
+							<key>Path</key>
+							<string>rightHead.png</string>
+						</dict>
+						<dict>
+							<key>FaceAction</key>
+							<integer>15</integer>
+							<key>Path</key>
+							<string>leftHead.png</string>
+						</dict>
+					</array>	
+					<key>AddPointsConfig</key>
+					<array>
+						<dict>
+							<key>Points</key>
+							<string>100</string>
+							<key>Path</key>
+							<string>100.png</string>
+						</dict>
+						<dict>
+							<key>Points</key>
+							<string>150</string>
+							<key>Path</key>
+							<string>150.png</string>
+						</dict>
+						<dict>
+							<key>Points</key>
+							<string>200</string>
+							<key>Path</key>
+							<string>200.png</string>
+						</dict>
+							<dict>
+							<key>Points</key>
+							<string>miss</string>
+							<key>Path</key>
+							<string>miss.png</string>
+						</dict>
+					</array>
+					<!-- crazy持续时间-->
+					<key>CrazyKeepTime</key>
+					<float>15.0</float>	
+					<!-- 进入crazy的分数-->
+					<key>CrazyPoints</key>
+					<integer>2000</integer>
+					<key>ReadyDecoderParam</key>
+					<array>
+						<dict>
+							<key>Path</key>
+							<string>ready/ready_.png</string>
+							<key>Info</key>
+							<string>3,3,0,0,49,0,0</string>
+						</dict>
+					</array>
+					<key>BackGroundParam</key>
+					<array>
+						<dict>
+							<key>Path</key>
+							<string>bg/bg_.png</string>
+							<key>Info</key>
+							<string>3,3,0,0,49,0,0</string>
+						</dict>
+					</array>
+					<key>WarningParam</key>
+					<array>
+						<dict>
+							<key>Path</key>
+							<string>WARNING/WARNING_.png</string>
+							<key>Info</key>
+							<string>3,3,0,0,41,0,0</string>
+						</dict>
+					</array>
+					<key>PerfectBatter</key>
+					<array>
+						<dict>
+							<key>Path</key>
+							<string>PERFECT/PERFECT_.png</string>
+							<key>Info</key>
+							<string>3,3,0,0,5,0,0</string>
+						</dict>
+					</array>
+					<key>GreatBatter</key>
+						<array>
+							<dict>
+							<key>Path</key>
+							<string>GREAT/GREAT_.png</string>
+							<key>Info</key>
+							<string>3,3,0,0,5,0,0</string>
+							</dict>
+						</array>
+					<key>GoodBatter</key>
+						<array>
+							<dict>
+							<key>Path</key>
+							<string>GOOD/GOOD_.png</string>
+							<key>Info</key>
+							<string>3,3,0,0,5,0,0</string>
+							</dict>
+						</array>
+					
+					<!-- 以下是可能需要调整的位置和宽高>
+					<!-- 分数牌-->
+					<key>PointsFractionConfig</key>
+					<array>
+					<dict>
+						<key>TexturePath</key>
+						<string>text.png</string>
+						<key>Row</key>
+						<integer>1</integer>
+						<key>Column</key>
+						<integer>11</integer>
+						<key>TextString</key>
+						<string>0123456789,</string>	
+						<key>Position</key>
+						<string>50,1750,0.0</string>
+						<key>WidthHeight</key>
+						<string>80,120</string>
+					</dict>
+					</array>					
+					<key>BatterFractionConfig</key>
+					<array>
+					<dict>
+						<key>TexturePath</key>
+						<string>text2.png</string>
+						<key>Row</key>
+						<integer>1</integer>
+						<key>Column</key>
+						<integer>11</integer>
+						<key>TextString</key>
+						<string>0123456789x</string>	
+						<key>Position</key>
+						<string>450,210,0.0</string>
+						<key>WidthHeight</key>
+						<string>100,120</string>
+					</dict>
+					</array>
+					<!-- 游戏区域-->
+					<key>GameArea</key>
+					<array>
+						<dict>
+							<!-- 区域范围 左上往下正轴 x为上限 y为下限 区域之间不能相交 -->
+							<!-- 此数值参考分辨率 不同分辨率位置不同-->
+							<key>MissArea</key>
+							<string>200,0</string>
+							<key>GoodArea</key>
+							<string>700,200</string>
+							<key>GreatArea</key>
+							<string>1200,700</string>
+							<key>PrefectArea</key>
+							<string>1700,1200</string>
+						</dict>
+					</array>		
+					<key>BatterPosition</key><!-- 连击图片位置 -->
+					<string>200,0,0</string>
+					<key>BatterWH</key><!-- 连击图片宽高 -->
+					<string>700,300</string>
+					<!-- 滑动条 -->
+					<key>Progress</key>
+					<array>
+						<dict>
+							<key>WidthHeight</key><!-- 宽高-->
+							<string>1080,310</string>
+							<key>SilderPath</key><!-- 指针图片路径-->
+							<string>pointer.png</string>
+							<key>FullPath</key><!-- 填充条图片路径 -->
+							<string>full3.png</string>
+						</dict>
+					</array>
+					<!-- 表情的宽高 -->
+					<key>SpriteWidthHeigth</key>
+					<string>200,200</string>
+					<key>Fulmination</key>
+					<array>
+						<dict>
+							<key>Path</key>
+							<string>shandian/shandian_.png</string>
+							<key>Info</key>
+							<string>3,3,0,0,49,0,0</string>
+						</dict>
+					</array>
+					
+				</dict>
+			</array>
+	</dict>
+</array>
+</plist>
