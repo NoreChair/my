@@ -25,7 +25,7 @@
 						<integer>10</integer>
 						<!-- sprite的移动速度 向上为负-->
 						<key>Velocity</key>
-						<float>-0.0078125</float>
+						<float>-15.0</float>
 					</dict>
 					</array>
 					<!-- 进入crazy时的参数设定-->
@@ -43,7 +43,7 @@
 						<integer>25</integer>
 						<!-- sprite的移动速度 向上为负-->
 						<key>Velocity</key>
-						<float>-0.0130208</float>
+						<float>-25.0</float>
 					</dict>
 					</array>			
 					<!-- 人脸对应图-->
@@ -194,9 +194,9 @@
 						<key>TextString</key>
 						<string>0123456789,</string>	
 						<key>Position</key>
-						<string>0.046,0.91,0.0</string><!-- 0.046 0.91-->
+						<string>50,1750,0.0</string><!-- 0.046 0.91-->
 						<key>WidthHeight</key>
-						<string>0.083,0.059</string><!--0.083 0.059 -->
+						<string>90,115</string><!--0.083 0.059 -->
 					</dict>
 					</array>					
 					<key>BatterFractionConfig</key>
@@ -212,9 +212,9 @@
 						<string>0123456789x</string>	
 						<!-- 连击的 x0 x1 位置和大小调整-->
 						<key>Position</key>
-						<string>0.398,0.0807,0.0</string> <!-- 0.398  0.0807-->
+						<string>430,155,0.0</string> <!-- 0.398  0.0807-->
 						<key>WidthHeight</key>
-						<string>0.10,0.070</string> <!--0.10 0.070 -->
+						<string>109,135</string> <!--0.10 0.070 -->
 					</dict>
 					</array>
 					<!-- 游戏区域-->
@@ -224,30 +224,34 @@
 							<!-- 区域范围 左上往下正轴 x为上限 y为下限 区域之间不能相交 -->
 							<!-- 此数值参考分辨率 不同分辨率位置不同-->
 							<key>MissArea</key>
-							<string>0.104,0</string> <!--0.104  0-->
+							<string>200,0</string> <!--0.104  0-->
 							<key>GoodArea</key>
-							<string>0.364,0.104</string>  <!-- 0.364 0.104-->
+							<string>700,200</string>  <!-- 0.364 0.104-->
 							<key>GreatArea</key>
-							<string>0.625,0.364</string><!-- 0.625  0.364-->
+							<string>1200,700</string><!-- 0.625  0.364-->
 							<key>PrefectArea</key>
-							<string>0.885,0.6254</string> <!-- 0.885 0.6254-->
+							<string>1700,1200</string> <!-- 0.885 0.6254-->
 						</dict>
 					</array>		
 					<key>BatterPosition</key><!-- 连击图片位置 -->
-					<string>0.185,-0.045,0</string> <!-- 0.185 -0.045-->
+					<string>200,-15,0</string> <!-- 0.185 -0.007 -->
 					<key>BatterWH</key><!-- 连击图片宽高 -->
-					<string>0.648,0.156</string> <!-- 0.648 0.156-->
+					<string>700,300</string> <!-- 0.648 0.156-->
 					<!-- 滑动条 即填充条 闪电效果那些的都是挑这个-->
 					<key>Progress</key>
 					<array>
 						<dict>
 							<key>WidthHeight</key><!-- 宽高-->
-							<string>1,0.159</string><!-- 1 0.159 -->
+							<string>1080,306</string><!-- 1 0.159 -->
+							<key>SilderPath</key><!-- 指针图片路径-->
+							<string>ppppp.png</string>
+							<key>FullPath</key><!-- 填充条图片路径 -->
+							<string>full3.png</string>
 						</dict>
 					</array>
 					<!-- 表情的宽高 -->
 					<key>SpriteWidthHeigth</key>
-					<string>0.231,0.126</string>				
+					<string>250,250</string>				
 				</dict>
 			</array>
 	</dict>
