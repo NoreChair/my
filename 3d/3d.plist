@@ -16,7 +16,7 @@
 						<key>GlowMeshIndex</key>
 						<string>0</string>
 						<key>IteratorCount</key>
-						<integer>2</integer>
+						<integer>5</integer>
 						<key>GlowMixColor</key>
 						<string>1.0,1.0,1.0</string>
 						<key>GlowStrength</key>
@@ -26,9 +26,9 @@
 						<key>BlurScale</key>
 						<integer>8</integer>
 						<key>Translate</key>
-						<string>0,0,-800</string>
+						<string>150,1200,0</string>
 						<key>Rorata</key>
-						<string>60,60,10</string>
+						<string>0,0,0</string>
 					</dict>
 				</array>
 			</dict>

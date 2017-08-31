@@ -8,8 +8,28 @@
 				<dict>
 					<key>Type</key>
 					<string>FaceDance</string>
-					<key>SoundEffect</key>
-					<string>CatchUp.mp3</string>								
+
+					<key>MoreSound</key>	
+					<array>
+						<dict>
+							<key>Pointer200Sound</key>
+							<string>200pointer.mp3</string>
+							<key>Pointer150Sound</key>
+							<string>150pointer.mp3</string>
+							<key>Pointer100Sound</key>
+							<string>100pointer.mp3</string>
+							<key>MissSound</key>
+							<string>miss.mp3</string>
+							<key>CrazySound</key>
+							<string>crazybgm.mp3</string>
+							<key>WarningSound</key>
+							<string>warning.mp3</string>
+							<key>ReadySound</key>
+							<string>ReadyFight.mp3</string>
+							<key>ComSound</key>
+							<string>bgm.mp3</string>
+						</dict>
+					</array>
 					<!-- 游戏设定-->
 					<key>GameConfig</key>
 					<array>
