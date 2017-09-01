@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>FacePart</key>
+            <array>
+                <dict>
+                    <key>Type</key><string>F</string>
+                    <key>FilterType</key><integer>50</integer>
+                    <key>ORGBA</key><string>80,1,0,0,255</string>              <!-- 使用了基准图，故RGB值无效，填0即可 -->
+                    <key>AdditionalTexture</key><string>734.png</string> <!-- 全局基准图 -->
+                </dict>
+            </array>
+        </dict>
+    </array>
+</plist>
