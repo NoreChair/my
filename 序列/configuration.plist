@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>FacePart</key>
+		<array>
+			<dict>
+				<key>Type</key> 
+				<string>FabbyFreeze</string>
+				<key>FreezeTrigger</key>
+				<integer>1245184</integer>
+				<key>ResetTime</key>
+				<float>8</float>
+				<key>TriggerToFreeze</key>
+				<integer>0</integer>
+<!-- 				<key>TriggerFreezeTime</key>
+				<float>0</float> -->
+				<key>BottomLayer</key>
+					<array>
+					<dict>
+						<key>VideoType</key>
+						<integer>4</integer>
+						<key>VideoCircleInfo</key>
+						<string>1,1,0,1,1,0,0</string>
+						<key>VideoOncePath</key>
+						<string>BGonce/BGonce_.png</string>
+						<key>VideoOnceInfo</key>
+						<string>2,3,0,1,18,0,0</string>
+						<key>VideoCirclePath</key>
+						<string>BGcircle/BGcircle_.png</string>
+						<key>VideoCircleInfo</key>
+						<string>2,3,0,1,85,0,0</string>
+					</dict>
+					</array>
+
+				<key>MiddleConfig</key>
+					<array>
+						<dict>
+							<key>EffectPath</key>
+							<string>effect</string>
+						</dict>	
+					</array>
+				<key>ProspectConfig</key>
+					<array>
+						<dict>
+							<key>VideoType</key>
+							<integer>4</integer>
+							<key>Rectangle</key>
+							<string>0.0,0.0,1.0,1.0</string>
+							<key>VideoOncePath</key>
+							<string>QJonce/QJonce_.png</string>
+							<key>VideoOnceInfo</key>
+							<string>2,3,0,1,24,0,0</string>
+							<key>VideoCirclePath</key>
+							<string>QJcircle/QJcircle_.png</string>
+							<key>VideoCircleInfo</key>
+							<string>2,3,0,1,40,0,0</string>
+						</dict>
+					</array>
+				<key>SwellThickness</key>
+				<float>0.2</float>
+				<key>SwellColor</key>
+				<string>1.0,1.0,1.0,0.0;</string>
+				<key>NeedDecath</key>
+				<integer>1</integer>
+				<key>DecathTime</key>
+				<float>2.0</float>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
