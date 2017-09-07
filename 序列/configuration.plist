@@ -13,9 +13,9 @@
 				<key>ResetTime</key>
 				<float>8</float>
 				<key>TriggerToFreeze</key>
-				<integer>0</integer>
-<!-- 				<key>TriggerFreezeTime</key>
-				<float>0</float> -->
+				<integer>2</integer>
+				<key>TriggerFreezeTime</key>
+				<float>2</float> 
 				<key>BottomLayer</key>
 					<array>
 					<dict>
