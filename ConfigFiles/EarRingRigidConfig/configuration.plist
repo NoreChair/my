@@ -14,12 +14,14 @@
 					<string>EarRingCreateFunc</string>
 					<key>ScenePath</key>
 					<string>torus.obj</string>
-				  <key>MaterialPath</key>
-					<string>softdemo/3DRes/spaceman.material#spaceman</string>
+					<key>BaicsPath</key>
+					<string>head_ping2.obj</string>
+					<key>MaterialPath</key>
+					<string>Diffuse.png</string>
 					<key>Ambient</key>
-					<string>0.5 0.5 0.5</string>
+					<string>0.5,0.5,0.5</string>
 					<key>LightPos</key>
-					<string>-500.0 300.0 400.0</string>			
+					<string>-500.0,300.0,400.0</string>		
 				</dict>
 			</array>
 		</dict>

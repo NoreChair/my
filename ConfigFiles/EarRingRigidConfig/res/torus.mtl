@@ -12,7 +12,7 @@ newmtl Material__27
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Kd Diffuse.jpg
+	map_Kd Diffuse.png
 
 newmtl Material__26
 	Ns 10.0000
@@ -25,7 +25,7 @@ newmtl Material__26
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Kd Diffuse.jpg
+	map_Kd Diffuse.png
 
 newmtl Material__25
 	Ns 10.0000
@@ -38,4 +38,4 @@ newmtl Material__25
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Kd Diffuse.jpg
+	map_Kd Diffuse.png
