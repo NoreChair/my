@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>niyoufreestylema</string>
+		<key>ID</key>
+		<integer>200190169</integer>
+		<key>Action</key>
+		<integer>0</integer>
+		<key>FacePart</key>
+		<array>	
+<!-- 				<dict>
+					<key>Type</key>
+					<string>3D</string>
+					<key>Path</key>
+					<string>emoji_01.obj</string>
+					<key>BlendFunc</key><string>770,771,1,771</string>
+					<key>EnableReflection</key>
+					<integer>1</integer>
+					<key>ReflectMode</key>
+					<integer>1</integer>
+					<key>EMTextures</key><string>EM</string>
+					<key>ReflectionConfigure</key>
+					<string>0,0.32,1,0,2,0.3;</string>
+					<key>EnableMSAA</key>
+					<integer>1</integer>
+					<key>EnableLighting</key>
+					<integer>1</integer>
+					<key>SpecularConfigure</key>
+					<string>0,0.08,1,1,2,2</string>
+					<key>SpecularColorConfigure</key>
+					<string>0,1.0,0.4,1.0,1;</string>
+					<key>AmbientColor</key>
+					<string>0.585,0.585,0.585</string>
+					<key>DirectLight</key>
+ 						  <array>
+	                        <string>+0.0,+0.5,-1.00, 1,0.990,1,0.395;</string>
+	                        <string>+0.0,-1.0,-0.15, 1,0.990,1,0.2108;</string>
+	                        <string>+0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+	                        <string>-0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+                   		 </array>
+				</dict> -->
+
+<!-- 				<dict>
+					<key>Type</key>
+					<string>3D</string>
+					<key>Path</key>
+					<string>emoji_02.obj</string>
+					<key>BlendFunc</key><string>770,771,1,771</string>
+					<key>EnableReflection</key>
+					<integer>1</integer>
+					<key>ReflectMode</key>
+					<integer>1</integer>
+					<key>EMTextures</key><string>EM</string>
+					<key>ReflectionConfigure</key>
+					<string>0,0.32,1,0.1,2,0.3,3,0.1;</string>
+					<key>EnableMSAA</key>
+					<integer>1</integer>
+					<key>EnableLighting</key>
+					<integer>1</integer>
+					<key>SpecularConfigure</key>
+					<string>0,0.08,1,1,2,0.3,3,5</string>
+					<key>SpecularColorConfigure</key>
+					<string>0,1.0,0.4,1.0,1;</string>
+					<key>AmbientColor</key>
+					<string>0.585,0.585,0.585</string>
+					<key>DirectLight</key>
+ 						  <array>
+	                        <string>+0.0,+0.5,-1.00, 1,0.990,1,0.395;</string>
+	                        <string>+0.0,-1.0,-0.15, 1,0.990,1,0.2108;</string>
+	                        <string>+0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+	                        <string>-0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+                   		 </array>
+				</dict> -->
+
+<!-- 				<dict>
+					<key>Type</key>
+					<string>3D</string>
+					<key>Path</key>
+					<string>emoji_03.obj</string>
+					<key>BlendFunc</key><string>770,771,1,771</string>
+					<key>EnableReflection</key>
+					<integer>1</integer>
+					<key>ReflectMode</key>
+					<integer>1</integer>
+					<key>EMTextures</key><string>EM</string>
+					<key>ReflectionConfigure</key>
+					<string>0,0.32,1,0.1,2,0.3;</string>
+					<key>EnableMSAA</key>
+					<integer>1</integer>
+					<key>EnableLighting</key>
+					<integer>1</integer>
+					<key>SpecularConfigure</key>
+					<string>0,0.08,1,1,2,0.3;</string>
+					<key>SpecularColorConfigure</key>
+					<string>0,1.0,0.4,1.0,1;</string>
+					<key>AmbientColor</key>
+					<string>0.585,0.585,0.585;</string>
+					<key>DirectLight</key>
+ 						  <array>
+	                        <string>+0.0,+0.5,-1.00, 1,0.990,1,0.395;</string>
+	                        <string>+0.0,-1.0,-0.15, 1,0.990,1,0.2108;</string>
+	                        <string>+0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+	                        <string>-0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+                   		 </array>
+				</dict> -->
+
+				<dict>
+					<key>Type</key>
+					<string>3D</string>
+					<key>Path</key>
+					<string>skull.obj</string>
+					<key>BlendFunc</key><string>770,771,1,771</string>
+					<key>EnableReflection</key>
+					<integer>1</integer>
+					<key>EnableSpecular</key>
+					<integer>1</integer>
+					<key>ReflectMode</key>
+					<integer>1</integer>
+					<key>EMTextures</key>
+					<string>EM</string>
+					<key>ReflectionConfigure</key>
+					<string>0,0.2,1,0.5,2,0.5;</string>
+					<key>EnableMSAA</key>
+					<integer>1</integer>
+					<key>EnableLighting</key>
+					<integer>1</integer>
+					<key>SpecularConfigure</key>
+					<string>0,0.1,1,0.1,2,0.1</string>
+					<key>SpecularColorConfigure</key>
+					<string>0,1.0,0.4,1.0,1;</string>
+					<key>AmbientColor</key>
+					<string>0.285,0.285,0.285</string>
+					<key>EnableFresnel</key>
+					<string></string>
+					<key>ViewPosition</key>
+					<string>0.0,0.0,-70.0</string>
+					<key>ViewDir</key>
+					<string>0.0,0.0,-1.0</string>
+					<key>IsCookSpecular</key>
+					<integer>1</integer>
+					<key>MatCapTexture</key>
+					<string>matcap1.png</string>
+					<key>DirectLight</key>
+ 						  <array>
+	                        <string>+0.0,0.5,-1.00, 1,0.990,1,0.395;</string>
+	                        <string>+0.0,5.0,-5.5, 1,0.990,1,0.2108;</string>
+	                        <string>+0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+	                        <string>-0.5,+0.0,-0.15, 1,0.990,1,0.2108;</string>
+                   		 </array>
+				</dict>
+
+		</array>
+	</dict>
+</array>
+</plist>
